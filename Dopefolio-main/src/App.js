@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import Layout from './components/Layout'
 import './App.scss'
 import Skills from './components/skills'
+import { Projects } from './components/projects'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
            <Route path="/skill" element={<Skills />} />
+           <Route path="/project" element={<Projects />} />
         </Route>
       </Routes>
     </>
