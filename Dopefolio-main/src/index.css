@@ -5,10 +5,10 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
-  color: #444;
+  /* color: #444; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:linear-gradient(to right, rgba(162, 161, 161, 0) 30%, rgb(215, 64, 64));
+  background-image:linear-gradient(to right, rgba(23, 20, 20, 0) 30%, rgb(215, 64, 64));
 
   display: block;
 }

@@ -1,0 +1,44 @@
+
+.data-container {
+    .project-div {
+        display: flex;
+        // marginLeft: '12%',
+        justify-content: center;
+        margin-top: 50px;
+        // margin-bottom: 20px;
+        color: white;
+        // gap: 100px;
+        font-size: 18px;
+    }
+
+    .project-data {
+        margin-left: 6%;
+        margin-top: 30px;
+        // margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.project-image {
+    // height: 200px;
+    width: 100%;
+    height: 300px;
+}
+
+// .paf{
+//   height: 60px;
+// }
+.Santanu {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 12px;
+    // height:300px;
+    color: #fff;
+    &:hover {
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}

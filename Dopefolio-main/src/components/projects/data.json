@@ -2,9 +2,82 @@
     [
         {
             "id":1,
+            "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
+           "title":"Inspired by KFC",
+           "desc":"We are thankful to Masai School for their initiative to impart coding skills to students irrespective of their educational background, this initiative has helped many students, especially from Tier-2, and Tier-3 colleges to learn to code breaking the location barriers.",
+           "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
+           "net":"https://mellow-froyo-f88246.netlify.app/"
+        },
+        {
+            "id": 2,
             "imgUrl":"",
-           " title":"Freshly.com",
-           "git":"",
-           "net":""
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        },
+ {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
+        }, {
+            "id": 2,
+            "imgUrl":"",
+            "title":"",
+            "desc":"",
+            "git":"",
+            "net":""
         }
     ]

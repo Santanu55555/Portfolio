@@ -2,7 +2,7 @@ import "./index.scss"
 import { faBootstrap, faHtml5, faJs, faMdb, faNodeJs, faReact, faThinkPeaks } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-
+import data from "./data.json"
 
 export default function Skills() {
   return (
@@ -60,7 +60,7 @@ Collaboration
    <span style={{"--i":15}}>s</span> 
 
   </div>
-       <ul style={{paddingTop:"50px",marginLeft:"30px"}}>
+       {/* <ul style={{paddingTop:"50px",marginLeft:"30px"}}>
          <li>
 Html and Css  <FontAwesomeIcon icon={faHtml5} color="#fff" />
          </li>
@@ -78,7 +78,16 @@ Html and Css  <FontAwesomeIcon icon={faHtml5} color="#fff" />
          <li>Redux  <FontAwesomeIcon icon={faReact} color="#fff" /></li>
          <li>Bootstrap  <FontAwesomeIcon icon={faBootstrap} color="#fff" /></li>
            <li>MongoDB  <FontAwesomeIcon icon={faMdb} color="#fff" /></li>
-       </ul>
+       </ul> */}
+
+
+           {data.map((t) => (
+          <div style={{height:"100px",width:"100px", display: "grid",gridTemplateColumn:"(5,1fr)"}}>
+            <img src={t.img} style={{height:"100px",width:"120px"}} />
+          </div>
+        ))}
+
+
    </div>
  
      </div>

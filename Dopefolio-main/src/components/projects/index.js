@@ -13,8 +13,8 @@ export const Projects = () => {
     }, 4000)
   }, [])
   return (
-    <div className="container">
-      <div className="div">
+    <div className="data-container">
+      <div className="project-div">
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
@@ -23,7 +23,7 @@ export const Projects = () => {
           />
         </h1>
       </div>
-      <div className="data">
+      <div className="project-data">
         {data.map((t) => (
           <div>
             <ProjectItem key={t.id} {...t} />
