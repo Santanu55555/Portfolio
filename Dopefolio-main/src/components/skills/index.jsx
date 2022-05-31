@@ -24,13 +24,13 @@ export default function Skills() {
   </div>
        <ul  style={{paddingTop:"50px",marginLeft:"30px"}}>
          <li>
-Collaboration
+       Team Collaboration
          </li>
           <li>
            Discipline
          </li>
           <li>
-           Communicate
+           Communication
          </li>
           <li>
            Strategic Thinker
