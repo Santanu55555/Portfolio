@@ -5,16 +5,16 @@
         // marginLeft: '12%',
         justify-content: center;
         margin-top: 50px;
-        // margin-bottom: 20px;
+        margin-bottom: 20px;
         color: white;
-        // gap: 100px;
+        gap: 50px;
         font-size: 18px;
     }
 
     .project-data {
         margin-left: 6%;
         margin-top: 30px;
-        // margin-bottom: 20px;
+        margin-bottom: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -24,6 +24,7 @@
     // height: 200px;
     width: 100%;
     height: 300px;
+    
 }
 
 // .paf{
@@ -32,13 +33,34 @@
 .Santanu {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 12px;
-    // height:300px;
+    height:500px;
     color: #fff;
     &:hover {
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
+}
+.deploy {
+    width: 100%;
+    gap: 50px;
+    display:flex;
+    margin-top: 20px;
+    margin-left: 10%;
+  
+}
+.github{
+    width: 150px;
+    height: 35px;
+    gap: 50px;
+    display: flex;
+    background-color: rgb(158, 37, 37)
+}
+.netlify{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    background-color: rgb(229, 224, 224)
 }

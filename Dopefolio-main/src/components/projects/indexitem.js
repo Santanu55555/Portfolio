@@ -10,13 +10,27 @@ export const ProjectItem = (t) => {
        <h2>{title}</h2>
       <img className="project-image" src={imgUrl} alt="projectImage" />
      
-      <p>{desc}</p>
-      <a href={git}>
-        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+      <p style={{fontSize:"15px", marginTop:"10px"}}>{desc}</p>
+
+      <div className="deploy">
+        
+      <button className="github">
+       
+            
+      <a href={git} style={{display:'flex',fontSize:'18px',textDecoration:'none',color:'white',marginLeft:"30px",marginTop:"3px"}}>   <p>Github</p>    <p> </p>
+        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" style={{color:'black',marginLeft:'5px'}}/>
       </a>
-      <a href={net}>
-        <FontAwesomeIcon icon={faGlobe} color="#4d4d4e" />
+      </button>
+
+      <button className="netlify">
+       
+         <a href={net} style={{display:'flex',fontSize:'18px',textDecoration:'none',color:'black',marginLeft:"30px",marginTop:"3px"}}> <p>Netlify</p>
+        <FontAwesomeIcon icon={faGlobe} color="#4d4d4e" style={{color:'black',marginLeft:'5px'}}/>
       </a>
+      </button>
+
+      </div>
+     
     </div>
   )
 }
