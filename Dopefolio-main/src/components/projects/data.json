@@ -4,17 +4,17 @@
             "id":1,
             "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
            "title":"Inspired by KFC",
-           "desc":"We are thankful to Masai School for their initiative to impart coding skills to students irrespective of their educational background, this initiative has helped many students, especially from Tier-2, and Tier-3 colleges to learn to code breaking the location barriers.",
+           "desc":"We were a team of 5 members , who got a chance to create a clone of KFC website, and completed this in 4 days with React.",
            "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
            "net":"https://mellow-froyo-f88246.netlify.app/"
         },
         {
             "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
+            "imgUrl":"https://github.com/akhilgonde/FreshlyCloning/blob/main/Screenshot%20(911).png?raw=true",
+            "title":"Freshly clone",
+            "desc":"In unit-2 we have learned about HTML ,CSS, DOM ,Higher Order functions and about the browser local storage. In this project we have used HTML and CSS to built Homepage and other pages in application. ",
+            "git":" https://github.com/akhilgonde/FreshlyCloning",
+            "net":"https://elastic-edison-d8012f.netlify.app/"
         },
  {
             "id": 2,

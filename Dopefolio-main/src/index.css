@@ -9,6 +9,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image:linear-gradient(to right, rgba(23, 20, 20, 0) 30%, rgb(215, 64, 64));
-
+  
   display: block;
 }
