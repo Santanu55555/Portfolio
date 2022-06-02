@@ -7,7 +7,7 @@ import data from "./data.json"
 export default function Skills() {
   return (
      <div style={{marginLeft:"100px",marginTop:"100px", display: "flex" ,color:"#fff",gap:"100px"}}>
-   <div className="banda" style={{height:"500px",fontSize:"20px", fontFamily: "monospace"}}>
+   <div className="banda" style={{height:"500px",width:"300px",fontSize:"20px", fontFamily: "monospace"}}>
          <div class="waviy">
  
    <span style={{"--i":1}}>S</span>
@@ -42,15 +42,15 @@ export default function Skills() {
        </ul>
    </div>
       <div style={{height:"500px",fontSize:"20px", fontFamily: "monospace"}}>
-         <div class="waviy">
- 
-   <span style={{"--i":1}}>E</span>
-  <span style={{"--i":2}}>s</span>
-   <span style={{"--i":3}}>s</span>
-   <span style={{"--i":4}}>e</span>
+         <div class="waviy"  >
+
+   <span style={{"--i":1}}>T</span>
+  <span style={{"--i":2}}>e</span>
+   <span style={{"--i":3}}>c</span>
+   <span style={{"--i":4}}>h</span>
    <span style={{"--i":5}}>n</span>
-      <span style={{"--i":6}}>t</span>  
-      <span style={{"--i":7}}>i</span> 
+      <span style={{"--i":6}}>i</span>  
+      <span style={{"--i":7}}>c</span> 
        <span style={{"--i":8}}>a</span>
          <span style={{"--i":9}}>l</span>   <span style={{"--i":10}}>S</span>
    <span style={{"--i":11}}>k</span>
@@ -79,13 +79,16 @@ Html and Css  <FontAwesomeIcon icon={faHtml5} color="#fff" />
          <li>Bootstrap  <FontAwesomeIcon icon={faBootstrap} color="#fff" /></li>
            <li>MongoDB  <FontAwesomeIcon icon={faMdb} color="#fff" /></li>
        </ul> */}
+ 
 
-
+       <div className="Laura" >
+         
            {data.map((t) => (
-          <div style={{height:"100px",width:"100px", display: "grid",gridTemplateColumn:"(5,1fr)"}}>
-            <img src={t.img} style={{height:"100px",width:"120px"}} />
+          <div style={{height:"80px",width:"80px"}}>
+            <img src={t.img} className='skill-img'style={{height:"80px",width:"100px",objectFit:"contain"}} />
           </div>
         ))}
+       </div>
 
 
    </div>

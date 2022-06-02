@@ -17,7 +17,8 @@ body {
 .waviy {
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
-    font-size: 60px;
+    font-size: 40px;
+    width: 600px;
 }
 
 .waviy span {
@@ -26,7 +27,7 @@ body {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
-    animation: waviy 1s ;
+    animation: waviy 2s infinite;
     animation-delay: calc(.1s * var(--i));
 
 }
@@ -42,4 +43,22 @@ body {
     20% {
         transform: translateY(-20px)
     }
+}
+.Laura{
+    // border:2px solid blue;
+    display:grid;
+    height:100%;
+    width:700px;
+    margin-top:50px;
+    padding-bottom:50px;
+    grid-template-columns: repeat(5,1fr);
+}
+.skill-img{
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background:-webkit-repeating-linear-gradient();
+    &:hover {
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
 }

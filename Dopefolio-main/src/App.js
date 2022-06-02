@@ -11,7 +11,7 @@ import { Projects } from './components/projects'
 function App() {
   return (
     <>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
@@ -19,7 +19,8 @@ function App() {
            <Route path="/skill" element={<Skills />} />
            <Route path="/project" element={<Projects />} />
         </Route>
-      </Routes>
+      </Routes> */}
+      <Layout />
     </>
   )
 }

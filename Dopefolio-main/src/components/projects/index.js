@@ -13,15 +13,14 @@ export const Projects = () => {
     }, 4000)
   }, [])
   return (
-    <div className="data-container">
+    <div className="data-container" style={{ marginTop: '200px' }}>
       <div className="project-div">
-        <h1>
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={['P', 'R', 'O', 'J', 'E', 'C', 'T', 'S']}
-            idx={15}
-          />
-        </h1>
+        <section>
+          <div class="content" style={{ marginLeft: '30px' }}>
+            <h2>Projects</h2>
+            <h2>Projects</h2>
+          </div>
+        </section>
       </div>
       <div className="project-data">
         {data.map((t) => (

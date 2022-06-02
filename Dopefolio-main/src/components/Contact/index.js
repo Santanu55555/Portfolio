@@ -89,25 +89,8 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
-         Ravet,
-          <br />
-          GK silverland phase 3,
-          <br />
-          ,Pune, 412101 <br />
-        Santanu Mohapatra<br />
-        Phone no- 7008467376
-          <br />
-          <span>shaantanu1234@gmail.com</span>
-        </div>
-        <div className="map-wrap">
-          <MapContainer center={[18.643269,73.7450557 ]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[18.643269,73.7450557 ]}>
-              <Popup>Santanu lives here, come over for a cup of coffee :)</Popup>
-            </Marker>
-          </MapContainer>
-        </div>
+      
+      
       </div>
     
     </>

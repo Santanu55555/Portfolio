@@ -5,6 +5,10 @@ import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
 import './index.scss'
+import About from '../About'
+import { Projects } from '../projects'
+import Skills from '../skills'
+import Contact from '../Contact'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -67,9 +71,14 @@ const Home = () => {
           </Link>
           
         </div>
-        <Logo />
+      <div style={{border:"1px solid #000"}}>
+          <Logo  />
       </div>
-       
+      </div>
+       {/* <About/>
+       <Skills/>
+       <Projects/>
+       <Contact/> */}
     </>
   )
 }
