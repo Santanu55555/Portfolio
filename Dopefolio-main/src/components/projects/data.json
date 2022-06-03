@@ -26,58 +26,30 @@
         }, {
             "id": 4,
             "imgUrl":"https://cdn.vox-cdn.com/thumbor/8okQ5KmQ1eveNvQCgBRXYZsPSh4=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66243228/wjoel_1777_180403_youtube_003.0.jpg",
-            "title":"Little Youtube",
+            "title":"Mini Youtube",
             "desc":"Made this little youtube in HTML,CSS and JavaScript, used youtube api to search and view videos.",
             "git":"https://github.com/Santanu55555/youtube",
             "net":"https://genuine-piroshki-0769e9.netlify.app"
         }, {
-            "id": 2,
-            "imgUrl":"https://github.com/Santanu55555/Race3ka-salman-khan/blob/main/Dopefolio-main/src/assets/images/calc.png",
-            "title":"",
+            "id": 5,
+            "imgUrl":"https://i.postimg.cc/5y9sRK2h/calculator.jpg",
+            "title":"Calculator",
             "desc":"A beautiful calculator in React.I used basic JavaScript to make it functional.",
             "git":"https://github.com/Santanu55555/React-Practice/tree/main/calculator",
             "net":"https://legendary-beignet-324715.netlify.app/"
         }, {
             "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
+            "imgUrl":"https://i.postimg.cc/MZgvRVVz/image-3.png",
+            "title":"Random Password Generator",
+            "desc":"It Generates random passwords ,as per digits and required kind of symbols , letters or numbers what user desired.",
+            "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
+            "net":"https://tiny-daifuku-8a152a.netlify.app/"
         }, {
             "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
-        }, {
-            "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
-        }, {
-            "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
-        }, {
-            "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
-        }, {
-            "id": 2,
-            "imgUrl":"",
-            "title":"",
-            "desc":"",
-            "git":"",
-            "net":""
+            "imgUrl":"https://i.postimg.cc/QxLcDR6g/image-4.png",
+            "title":"Notes",
+            "desc":"You can add , delete, edit your notes here. And you can search for them with the search engine as well.",
+            "git":"https://github.com/Santanu55555/React-Practice/tree/main/todo",
+            "net":"https://whimsical-sunburst-9da55f.netlify.app"
         }
     ]

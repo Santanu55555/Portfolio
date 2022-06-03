@@ -111,7 +111,7 @@
     &:hover {
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+        transform: scale(1.06);
     }
 }
 .deploy {
@@ -130,6 +130,11 @@
     width: 150px;
     height: 35px;
     border-radius: 3px;
+        &:hover {
+                -ms-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.05);
+            }
     gap: 50px;
     box-shadow: rgba(251, 10, 10, 0.56) 0px 22px 70px 4px;
     display: flex;
@@ -141,6 +146,11 @@
     width: 150px;
     height: 35px;
     display: flex;
+        &:hover {
+                -ms-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.05);
+            }
     border-radius: 3px;
     box-shadow: rgba(244, 242, 242, 0.56) 0px 22px 70px 4px;
     background-color: rgb(247, 241, 241);
