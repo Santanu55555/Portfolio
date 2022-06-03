@@ -16,7 +16,14 @@ export const Projects = () => {
     <div className="data-container" style={{ marginTop: '200px' }}>
       <div className="project-div">
         <section>
-          <div class="content" style={{ marginLeft: '30px' }}>
+          <div
+            class="content"
+            style={{
+              marginLeft: '30px',
+              fontSize: '15px',
+              marginBottom: '30px',
+            }}
+          >
             <h2>Projects</h2>
             <h2>Projects</h2>
           </div>

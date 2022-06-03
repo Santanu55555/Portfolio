@@ -14,20 +14,20 @@ export const ProjectItem = (t) => {
 
       <div className="deploy">
         
-      <button className="github">
+      <div className="github">
        
             
       <a href={git} style={{display:'flex',fontSize:'18px',textDecoration:'none',color:'white',marginLeft:"30px",marginTop:"3px"}}>   <p>Github</p>    <p> </p>
         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" style={{color:'black',marginLeft:'5px'}}/>
       </a>
-      </button>
+      </div>
 
-      <button className="netlify">
+      <div className="netlify">
        
          <a href={net} style={{display:'flex',fontSize:'18px',textDecoration:'none',color:'black',marginLeft:"30px",marginTop:"3px"}}> <p>Netlify</p>
         <FontAwesomeIcon icon={faGlobe} color="#4d4d4e" style={{color:'black',marginLeft:'5px'}}/>
       </a>
-      </button>
+      </div>
 
       </div>
      

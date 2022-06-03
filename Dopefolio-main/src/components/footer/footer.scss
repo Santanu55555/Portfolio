@@ -1,0 +1,12 @@
+.iconFooter{
+    &:hover{
+        color:rgb(228, 212, 212);
+        animation:alternate-reverse;
+    }
+}
+.footer{
+    background-color:black;
+    border-top:1px solid rgb(62, 61, 61);
+    width:100%;
+   
+}

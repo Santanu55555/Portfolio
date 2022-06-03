@@ -16,6 +16,7 @@ import About from '../About'
 import Skills from '../skills'
 import { Projects } from '../projects'
 import Contact from '../Contact'
+import { Footer } from '../footer/footer'
 
 const Sidebar = () => {
   return (
@@ -82,7 +83,7 @@ const Sidebar = () => {
               <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
             </a>
           </li>
-          <li></li>
+         
         </ul>
       </div>
       <div id="home">
@@ -100,6 +101,7 @@ const Sidebar = () => {
       <div id='contact'>
         <Contact />
       </div>
+      <Footer/>
     </div>
   )
 }
