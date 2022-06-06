@@ -13,9 +13,30 @@ import Contact from '../Contact'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['S', 'a', 'n', 't', 'a','n','u',' ','M','o','h','a','p','a','t','r','a']
+  const nameArray = [
+    'S',
+    'a',
+    'n',
+    't',
+    'a',
+    'n',
+    'u',
+    ' ',
+    'M',
+    'o',
+    'h',
+    'a',
+    'p',
+    'a',
+    't',
+    'r',
+    'a',
+  ]
   const jobArray = [
-    'Full','-','Stack','  ',
+    'Full',
+    '-',
+    'Stack',
+    '  ',
     'w',
     'e',
     'b',
@@ -49,7 +70,7 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
             <span> </span>
-         
+
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -63,19 +84,28 @@ const Home = () => {
             />
           </h1>
           <h2>Front-End Developer/Back-End Developer</h2>
-           <a href="https://docs.google.com/document/d/1f6VoTT8wO0JHcWdO3Z0RDw8ZbyuG0dO-fBK8tzeTcl0/edit#"  className="flat-button">
+          <a
+            href="https://docs.google.com/document/d/1f6VoTT8wO0JHcWdO3Z0RDw8ZbyuG0dO-fBK8tzeTcl0/edit#"
+            className="flat-button"
+            target="_blank"
+            rel="noreferrer"
+          >
             RESUME
           </a>
-          <Link to="/contact" style={{marginLeft:"20px"}} className="flat-button">
+          <a
+            href="#contact"
+            style={{ marginLeft: '20px', cursor: 'pointer' }}
+            className="flat-button"
+          >
             CONTACT ME
-          </Link>
-          
+          </a>
         </div>
-      <div style={{border:"1px solid #000"}}>
-          <Logo  />
+        <div style={{ border: '1px solid #000' }}>
+          <Logo />
+        </div>
       </div>
-      </div>
-       {/* <About/>
+
+      {/* <About/>
        <Skills/>
        <Projects/>
        <Contact/> */}

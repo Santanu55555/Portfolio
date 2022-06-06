@@ -55,14 +55,14 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faBagShopping} color="#4d4d4e" />
           </a>
         </nav>
-        <ul>
+        <ul >
           <li>
             <a
               href="https://www.linkedin.com/in/santanu-mohapatra-880204200/"
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+              <FontAwesomeIcon className="billi" icon={faLinkedin} color="#4d4d4e" />
             </a>
           </li>
           <li>
@@ -71,7 +71,7 @@ const Sidebar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+              <FontAwesomeIcon className="billi" icon={faGithub} color="#4d4d4e" />
             </a>
           </li>
           <li>
@@ -80,7 +80,7 @@ const Sidebar = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+              <FontAwesomeIcon className="billi" icon={faYoutube} color="#4d4d4e" />
             </a>
           </li>
          
