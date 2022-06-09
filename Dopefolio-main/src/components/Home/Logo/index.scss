@@ -1,7 +1,7 @@
 .logo-container {
   z-index: 0;
   width: 200px;
-  height: 309px;
+  height: 509px;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -10,7 +10,7 @@
   // left: auto;
   // margin: auto;
   margin-right: 300px;
-margin-top:250px;
+margin-top:200px;
   svg {
     width: 100%;
     height: auto;
@@ -20,14 +20,14 @@ margin-top:250px;
 
   .solid-logo {
     position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    width: 100%;
+    // right: auto;
+    // bottom: auto;
+    // left: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    // margin: auto;
+    width: 150%;
     opacity: 0;
-   
+    margin-bottom:500px;
     z-index: 1;
   }
 }
