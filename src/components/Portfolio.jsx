@@ -1,12 +1,27 @@
 import React from "react";
+import { useState } from "react";
 // import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 // import installNode from "../assets/portfolio/installNode.jpg";
 // import navbar from "../assets/portfolio/navbar.jpg";
 // import reactParallax from "../assets/portfolio/reactParallax.jpg";
 // import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
-
+import "./Portfolio.css"
 const Portfolio = () => {
+  const [toggle,setToggle]=useState(false)
+  
+const enterfn=(e)=>{
+return(
+  <>
+  <h1>hi</h1></>
+)
+}
+const notenterfn=(e)=>{
+  return(
+    <>
+    <h1>hi</h1></>
+  )
+  }
   const portfolios = [
     {
       "id":1,
@@ -46,14 +61,14 @@ const Portfolio = () => {
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/calculator",
       "net":"https://legendary-beignet-324715.netlify.app/"
   }, {
-      "id": 2,
+      "id": 6,
       "imgUrl":"https://i.postimg.cc/MZgvRVVz/image-3.png",
       "title":"Random Password Generator",
       "desc":"It Generates random passwords ,as per digits and required kind of symbols , letters or numbers what user desired.",
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
       "net":"https://tiny-daifuku-8a152a.netlify.app/"
   }, {
-      "id": 2,
+      "id": 7,
       "imgUrl":"https://i.postimg.cc/QxLcDR6g/image-4.png",
       "title":"Notes",
       "desc":"You can add , delete, edit your notes here. And you can search for them with the search engine as well.",
@@ -61,7 +76,7 @@ const Portfolio = () => {
       "net":"https://whimsical-sunburst-9da55f.netlify.app"
   }
   ];
-
+ 
   return (
     <div
       name="portfolio"
@@ -76,19 +91,25 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, imgUrl }) => (
+          {portfolios.map(({ id, imgUrl ,git,net}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                src={imgUrl}
-                alt=""
+                src={imgUrl} onMouseEnter={(e)=>enterfn(e)} onMouseLeave={(e)=>notenterfn(e)}
+                alt="" id="band"
                 className="rounded-md duration-200 h-36 w-72 object-cover content-center mx-auto height-50 hover:scale-105"
               />
+              {
+                toggle &&  
+                <div>
+                  <h3>Hello bsdk</h3>
+                </div>
+              }
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                 <a href={net} target="_blank"> Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                 <a href={git} target="_blank"> Code</a>
                 </button>
               </div>
             </div>
