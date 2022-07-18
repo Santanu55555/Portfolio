@@ -1,5 +1,34 @@
-/* #band:hover{
--ms-transform: scale(1.5);
--webkit-transform:scale(1.5) ;
-transform: scale(1.5);
-} */
+.imgtext {		
+    color: rgb(20, 12, 12);
+    background: rgba(251, 243, 243, 0.89);
+    /* width: 100%;
+    height: 135px; */
+    /* padding: 50px 15px 0 15px; */
+    opacity: 0;
+    position: absolute;
+    /* bottom: 0px; */
+    
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.pic {
+ 
+    overflow: hidden;
+   
+}
+.pic img:hover{
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -o-filter: blur(1px);
+    filter: blur(1px);
+    transform: scale(1.03);
+}
+.imgtext:hover {
+    -webkit-opacity: 100;
+    opacity: 100;
+}
