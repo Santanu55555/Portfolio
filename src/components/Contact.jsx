@@ -12,7 +12,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_x1g2klh',
+        'service_578au8m',
         'template_rot6434',
         form.current,
         'vHeViYdd2RQJ5G_cm'
@@ -23,7 +23,7 @@ const Contact = () => {
           window.location.reload(false)
         },
         () => {
-          alert('Message successfully sent!')
+          alert("Message doesn't successfully sent!")
         }
       )
   }
@@ -42,8 +42,7 @@ const Contact = () => {
 
         <div className=" flex justify-center items-center">
           <form
-            action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
-            method="POST"
+          
             className=" flex flex-col w-full md:w-1/2" ref={form}
             onSubmit={sendEmail}
           >
@@ -55,7 +54,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
-              type="text"
+              type="email"
               required
               name="email"
               placeholder="Enter your email"

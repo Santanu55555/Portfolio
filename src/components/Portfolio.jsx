@@ -83,17 +83,18 @@ const Portfolio = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, imgUrl,title,desc ,git,net}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
-             <div className="pic">
+           
+             {/* <span className="imgtext">
+			<h1>{title}</h1>
+			<p>{desc}</p>
+		</span> */}
              <img
                 src={imgUrl} onMouseEnter={()=>setToggle(true)} onMouseLeave={()=>setToggle(false)}
                 alt="" id="band" 
                 className="rounded-md duration-200 h-36 w-72 object-cover content-center mx-auto height-50 hover:scale-105"
               />
-             <span className="imgtext">
-			<h1>{title}</h1>
-			<p>{desc}</p>
-		</span>
-             </div>
+           
+           
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                  <a href={net} target="_blank"> Demo</a>
