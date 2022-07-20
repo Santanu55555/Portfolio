@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Portfolio.css"
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -64,7 +64,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full pt-48 h-screen"
+      className="bg-gradient-to-b from-gray-800 hello to-black w-full pt-48 h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

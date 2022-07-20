@@ -17,7 +17,7 @@ const Portfolio = () => {
       "id":1,
       "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
      "title":"Inspired by KFC",
-     "desc":"We were a team of 5 members , who got a chance to create a clone of KFC website, and completed this in 4 days with React.",
+     "desc":"We were a team of 5 members and completed this in 4 days with tech stack React.",
      "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
      "net":"https://mellow-froyo-f88246.netlify.app/"
   },
@@ -40,7 +40,7 @@ const Portfolio = () => {
       "id": 4,
       "imgUrl":"https://cdn.vox-cdn.com/thumbor/8okQ5KmQ1eveNvQCgBRXYZsPSh4=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66243228/wjoel_1777_180403_youtube_003.0.jpg",
       "title":"Mini Youtube",
-      "desc":"Made this little youtube in HTML,CSS and JavaScript, used youtube api to search and view videos.",
+      "desc":"Tech stacks- HTML,CSS and JS. Used youtube api to search and view videos.",
       "git":"https://github.com/Santanu55555/youtube",
       "net":"https://genuine-piroshki-0769e9.netlify.app"
   }, {
@@ -54,23 +54,16 @@ const Portfolio = () => {
       "id": 6,
       "imgUrl":"https://i.postimg.cc/MZgvRVVz/image-3.png",
       "title":"Random Password Generator",
-      "desc":"It Generates random passwords ,as per digits and required kind of symbols , letters or numbers what user desired.",
+      "desc":"Generates random passwords with random symbols , letters or numbers.",
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
       "net":"https://tiny-daifuku-8a152a.netlify.app/"
-  }, {
-      "id": 7,
-      "imgUrl":"https://i.postimg.cc/QxLcDR6g/image-4.png",
-      "title":"Notes",
-      "desc":"You can add , delete, edit your notes here. And you can search for them with the search engine as well.",
-      "git":"https://github.com/Santanu55555/React-Practice/tree/main/todo",
-      "net":"https://whimsical-sunburst-9da55f.netlify.app"
   }
   ];
  
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white hello md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -82,24 +75,25 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, imgUrl,title,desc ,git,net}) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg ">
+            <div key={id} className="shadow-md shadow-gray-600 santanu rounded-lg ">
            
-             {/* <span className="imgtext">
-			<h1>{title}</h1>
-			<p>{desc}</p>
-		</span> */}
+        
              <img
                 src={imgUrl} onMouseEnter={()=>setToggle(true)} onMouseLeave={()=>setToggle(false)}
                 alt="" id="band" 
                 className="rounded-md duration-200 h-36 w-72 object-cover content-center mx-auto height-50 hover:scale-105"
               />
+             
+                <span className="imgtext"> 
+			<h1 style={{fontWeight:"bold"}}>{title}</h1>
+			<p>{desc}</p>
+		</span>
            
-           
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <div className="flex items-bottom justify-center bottom-0">
+                <button className="w-1/2 px-6 py-3  m-4 duration-200 bottom-0 hover:scale-105">
                  <a href={net} target="_blank"> Demo</a>
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 bottom-0 hover:scale-105">
                  <a href={git} target="_blank"> Code</a>
                 </button>
               </div>

@@ -1,6 +1,6 @@
 .imgtext {		
-    color: rgb(20, 12, 12);
-    background: rgba(251, 243, 243, 0.89);
+   
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(98, 0, 255));
     /* width: 100%;
     height: 70px; */
     /* padding: 50px 15px 0 15px; */
@@ -21,18 +21,22 @@
     top:0;
     
 }
+.hello{
+    /* position:absolute; */
+}
 .imgtext:hover {
     /* -webkit-opacity: 100; */
     opacity: 100;
     position: relative;
         /* top:20px; */
         display:block;
-      -webkit-background-clip: text;
+        color: rgb(246, 240, 240);
+      /* -webkit-background-clip: text; */
       /* -webkit-text-fill-color: transparent; */
       /* text-align: center; */
       /* font-size: 10vmin; */
       /* line-height: 1.1; */
-      background: rgb(175, 181, 185);
+      background-image: linear-gradient(to right, rgb(62, 57, 57), rgb(98, 0, 255));
         
       /* box-sizing: border-box; */
       /* display: grid; */
@@ -43,3 +47,14 @@
     -o-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
+/* .detail{
+    display: block;
+} */
+.santanu{
+    background-image: url("https://i.postimg.cc/3x0fGm03/preview-tag-details.png");
+    background-position:center bottom;
+    background-size: contain;
+}
+/* .santanu:hover{
+    background-position:center;
+} */
