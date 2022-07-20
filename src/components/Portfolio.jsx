@@ -40,21 +40,21 @@ const Portfolio = () => {
       "id": 4,
       "imgUrl":"https://cdn.vox-cdn.com/thumbor/8okQ5KmQ1eveNvQCgBRXYZsPSh4=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66243228/wjoel_1777_180403_youtube_003.0.jpg",
       "title":"Mini Youtube",
-      "desc":"Tech stacks- HTML,CSS and JS. Used youtube api to search and view videos.",
+      "desc":"I used tech stacks HTML,CSS, JS.and Used youtube api to search and view youtube videos.",
       "git":"https://github.com/Santanu55555/youtube",
       "net":"https://genuine-piroshki-0769e9.netlify.app"
   }, {
       "id": 5,
       "imgUrl":"https://i.postimg.cc/5y9sRK2h/calculator.jpg",
       "title":"Calculator",
-      "desc":"A beautiful calculator in React.I used basic JavaScript to make it functional.",
+      "desc":"A beautiful calculator in React.I used basic JavaScript to make it functional and generic.",
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/calculator",
       "net":"https://legendary-beignet-324715.netlify.app/"
   }, {
       "id": 6,
       "imgUrl":"https://i.postimg.cc/MZgvRVVz/image-3.png",
-      "title":"Random Password Generator",
-      "desc":"Generates random passwords with random symbols , letters or numbers.",
+      "title":"Password Generator",
+      "desc":"It Generates random passwords by adding random symbols ,letters or numbers .",
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
       "net":"https://tiny-daifuku-8a152a.netlify.app/"
   }
@@ -85,15 +85,15 @@ const Portfolio = () => {
               />
              
                 <span className="imgtext"> 
-			<h1 style={{fontWeight:"bold"}}>{title}</h1>
-			<p>{desc}</p>
+			<h1 style={{fontWeight:"bold",paddingBottom:"5px",textAlign:"center"}}>{title}</h1>
+			<p style={{textAlign:"center"}}> {desc}</p>
 		</span>
            
               <div className="flex items-bottom justify-center bottom-0">
-                <button className="w-1/2 px-6 py-3  m-4 duration-200 bottom-0 hover:scale-105">
+                <button className="w-1/2 px-6 py-3  m-4 duration-200 bottom-0 hover:scale-105 botama">
                  <a href={net} target="_blank"> Demo</a>
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 bottom-0 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 bottom-0 hover:scale-105 botama">
                  <a href={git} target="_blank"> Code</a>
                 </button>
               </div>
