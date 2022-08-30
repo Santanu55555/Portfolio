@@ -38,25 +38,25 @@ const Experience = () => {
     {
       id: 5,
       src: tailwind,
-      title: "Tailwind",
+      title: "Redux",
       style: "shadow-sky-400",
     },
     {
       id: 6,
       src: nextjs,
-      title: "Next JS",
+      title: "Node JS",
       style: "shadow-white",
     },
     {
       id: 7,
       src: graphql,
-      title: "GraphQL",
+      title: "MongoDB",
       style: "shadow-pink-400",
     },
     {
       id: 8,
       src: github,
-      title: "GitHub",
+      title: "Chakra UI",
       style: "shadow-gray-400",
     },
   ];
