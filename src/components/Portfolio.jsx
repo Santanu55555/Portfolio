@@ -1,11 +1,5 @@
 import React from "react";
 import { useState } from "react";
-// import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-// import installNode from "../assets/portfolio/installNode.jpg";
-// import navbar from "../assets/portfolio/navbar.jpg";
-// import reactParallax from "../assets/portfolio/reactParallax.jpg";
-// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import "./Portfolio.css"
 const Portfolio = () => {
   const [toggle,setToggle]=useState(false)
@@ -52,7 +46,7 @@ const Portfolio = () => {
       "net":"https://legendary-beignet-324715.netlify.app/"
   }, {
       "id": 6,
-      "imgUrl":"https://i.postimg.cc/MZgvRVVz/image-3.png",
+      "imgUrl":"https://i.postimg.cc/0jXmGQwb/Whats-App-Image-2022-09-01-at-11-30-25-PM.jpg",
       "title":"Password Generator",
       "desc":"It Generates random passwords by adding random symbols ,letters or numbers .",
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
