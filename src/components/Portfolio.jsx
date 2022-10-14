@@ -8,21 +8,22 @@ const Portfolio = () => {
 
   const portfolios = [
     {
-      "id":1,
+      "id": 1,
+      "imgUrl":"https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/60dc499268d597166db997aa_bonsai_hero-opt-2.png",
+      "title":"HELLOBONSAI.COM",
+      "desc":"Bulletproof contracts, e-signing, proposals & invoicing. ",
+      "git":" https://github.com/Santanu55555/Hello-Bonsai",
+      "net":"https://jocular-medovik-257224.netlify.app/"
+  },
+    {
+      "id":2,
       "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
      "title":"Inspired by KFC",
      "desc":"We were a team of 5 members and completed this in 4 days with tech stack React.",
      "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
      "net":"https://mellow-froyo-f88246.netlify.app/"
   },
-  {
-      "id": 2,
-      "imgUrl":"https://github.com/akhilgonde/FreshlyCloning/blob/main/Screenshot%20(911).png?raw=true",
-      "title":"Freshly clone",
-      "desc":"In this project we have used HTML and CSS to built Homepage and other pages in application. ",
-      "git":" https://github.com/akhilgonde/FreshlyCloning",
-      "net":"https://elastic-edison-d8012f.netlify.app/"
-  },
+
 {
       "id": 3,
       "imgUrl":"https://i.njkhanh.com/img/a-great-experience-cloning-the-onnbikes-com-website-using-frontend-and-backend-tools.jpeg?v=1630544314",
@@ -39,11 +40,11 @@ const Portfolio = () => {
       "net":"https://genuine-piroshki-0769e9.netlify.app"
   }, {
       "id": 5,
-      "imgUrl":"https://i.postimg.cc/5y9sRK2h/calculator.jpg",
-      "title":"Calculator",
-      "desc":"A beautiful calculator in React.I used basic JavaScript to make it functional and generic.",
-      "git":"https://github.com/Santanu55555/React-Practice/tree/main/calculator",
-      "net":"https://legendary-beignet-324715.netlify.app/"
+      "imgUrl":"https://i.postimg.cc/sfL8q63f/Whats-App-Image-2022-09-12-at-12-21-49-PM.jpg",
+      "title":"HYPER NOTES",
+      "desc":"A web Extension to manage text.",
+      "git":"https://github.com/adityasekharbej/BetterJotter",
+      "net":"https://spontaneous-flan-f1ce25.netlify.app/"
   }, {
       "id": 6,
       "imgUrl":"https://i.postimg.cc/0jXmGQwb/Whats-App-Image-2022-09-01-at-11-30-25-PM.jpg",
