@@ -14,18 +14,17 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.  I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+        Hi, I am Santanu, and I am glad to welcome you all to my profile.
         </p>
 
         <br />
 
         <p className="text-xl">
-        If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          I am passoniate about building excellent software that impress the
+          lifes of those around me. I specialize in creating software for
+          clients ranging from individuals and small business all the way to
+          large enterprise corporation. What would you do if you had a software
+          expert available at your fingertips.
         </p>
       </div>
     </div>

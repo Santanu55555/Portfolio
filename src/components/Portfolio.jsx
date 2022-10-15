@@ -19,7 +19,7 @@ const Portfolio = () => {
       "id":2,
       "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
      "title":"Inspired by KFC",
-     "desc":"We were a team of 5 members and completed this in 4 days with tech stack React.",
+     "desc":"We were a team of five members and completed this in four days with React.",
      "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
      "net":"https://mellow-froyo-f88246.netlify.app/"
   },
@@ -35,7 +35,7 @@ const Portfolio = () => {
       "id": 4,
       "imgUrl":"https://cdn.vox-cdn.com/thumbor/8okQ5KmQ1eveNvQCgBRXYZsPSh4=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66243228/wjoel_1777_180403_youtube_003.0.jpg",
       "title":"Mini Youtube",
-      "desc":"I used tech stacks HTML,CSS, JS.and Used youtube api to search and view youtube videos.",
+      "desc":"I have used HTML5, CSS3, JavaScript and api to search and view youtube videos.",
       "git":"https://github.com/Santanu55555/youtube",
       "net":"https://genuine-piroshki-0769e9.netlify.app"
   }, {
@@ -49,7 +49,7 @@ const Portfolio = () => {
       "id": 6,
       "imgUrl":"https://i.postimg.cc/0jXmGQwb/Whats-App-Image-2022-09-01-at-11-30-25-PM.jpg",
       "title":"Password Generator",
-      "desc":"It Generates random passwords by adding random symbols ,letters or numbers .",
+      "desc":"It Generates random passwords by adding random symbols, letters or numbers.",
       "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
       "net":"https://tiny-daifuku-8a152a.netlify.app/"
   }
@@ -65,7 +65,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out some of my works</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
