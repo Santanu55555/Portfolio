@@ -10,48 +10,49 @@ const Portfolio = () => {
     {
       "id": 1,
       "imgUrl":"https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/60dc499268d597166db997aa_bonsai_hero-opt-2.png",
-      "title":"HELLOBONSAI.COM",
-      "desc":"Bulletproof contracts, e-signing, proposals & invoicing. ",
-      "git":" https://github.com/Santanu55555/Hello-Bonsai",
+      "title":"HELLOBONSAI",
+      "desc":"A full stack application for bulletproof contracts, e-signing, proposals & invoicing.",
+      "git":"https://github.com/akshaykanherkar7/productive-frog-3801",
       "net":"https://jocular-medovik-257224.netlify.app/"
-  },
-    {
-      "id":2,
-      "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
-     "title":"Inspired by KFC",
-     "desc":"We were a team of five members and completed this in four days with React.",
-     "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
-     "net":"https://mellow-froyo-f88246.netlify.app/"
-  },
+  }
+  , {
+    "id": 5,
+    "imgUrl":"https://i.postimg.cc/sfL8q63f/Whats-App-Image-2022-09-12-at-12-21-49-PM.jpg",
+    "title":"NOTES",
+    "desc":"A web Extension to manage task, play with text, and generate random passwords.",
+    "git":"https://github.com/adityasekharbej/BetterJotter",
+    "net":"https://spontaneous-flan-f1ce25.netlify.app/"
+},
 
 {
       "id": 3,
-      "imgUrl":"https://i.njkhanh.com/img/a-great-experience-cloning-the-onnbikes-com-website-using-frontend-and-backend-tools.jpeg?v=1630544314",
-      "title":"ONNbike",
-      "desc":"This project is a clone of Onnbike.com Onnbike is the most affordacle bike renral company in India.",
-      "git":"https://github.com/Santanu55555/ONNbikes",
-      "net":"https://loquacious-biscochitos-48b0b9.netlify.app/"
+      "imgUrl":"https://i.postimg.cc/J7sztdKt/Whats-App-Image-2022-10-18-at-08-56-14.jpg",
+      "title":"MYGLAMM",
+      "desc":"A online beauty shopping store to buy an entire range of eye, skin, nails, and lip makeup kits.",
+      "git":"https://github.com/faisalk2/Clone-of-myglamm.com",
+      "net":"https://celadon-sopapillas-b997d9.netlify.app/"
+  }, {
+    "id": 6,
+    "imgUrl":"https://i.postimg.cc/Y9nNRymh/Whats-App-Image-2022-10-18-at-09-05-47.jpg",
+    "title":"STYLECRAZE",
+    "desc":" Women's Beauty And Wellness Community to get solutions to all the Beauty queries.",
+    "git":"https://github.com/Santanu55555/Stylecraze",
+    "net":"https://endearing-treacle-bc37c9.netlify.app/"
+},
+    {
+      "id":2,
+      "imgUrl":"https://user-images.githubusercontent.com/99042645/167411278-ee4779b4-d8a4-45dd-b6c1-f56f0485986f.JPG",
+     "title":"KFC",
+     "desc":"We were a team of five members and completed this in four days using React and Redux.",
+     "git":"https://github.com/CodEsHiVaz/kfc-clone-react",
+     "net":"https://mellow-froyo-f88246.netlify.app/"
   }, {
       "id": 4,
       "imgUrl":"https://cdn.vox-cdn.com/thumbor/8okQ5KmQ1eveNvQCgBRXYZsPSh4=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66243228/wjoel_1777_180403_youtube_003.0.jpg",
-      "title":"Mini Youtube",
+      "title":"YOUTUBE MINI",
       "desc":"I have used HTML5, CSS3, JavaScript and api to search and view youtube videos.",
       "git":"https://github.com/Santanu55555/youtube",
       "net":"https://genuine-piroshki-0769e9.netlify.app"
-  }, {
-      "id": 5,
-      "imgUrl":"https://i.postimg.cc/sfL8q63f/Whats-App-Image-2022-09-12-at-12-21-49-PM.jpg",
-      "title":"HYPER NOTES",
-      "desc":"A web Extension to manage text.",
-      "git":"https://github.com/adityasekharbej/BetterJotter",
-      "net":"https://spontaneous-flan-f1ce25.netlify.app/"
-  }, {
-      "id": 6,
-      "imgUrl":"https://i.postimg.cc/0jXmGQwb/Whats-App-Image-2022-09-01-at-11-30-25-PM.jpg",
-      "title":"Password Generator",
-      "desc":"It Generates random passwords by adding random symbols, letters or numbers.",
-      "git":"https://github.com/Santanu55555/React-Practice/tree/main/password%20generatoe",
-      "net":"https://tiny-daifuku-8a152a.netlify.app/"
   }
   ];
  
